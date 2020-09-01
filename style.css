@@ -22,3 +22,9 @@ p {
     background-color: lightsalmon;
     padding: 10px;
 }
+
+img {
+    width: 100%;
+    /* max-width: 560px; */
+    height: auto;
+}
