@@ -1,26 +1,27 @@
 body {
     margin: 0;
+    font-size: 20px;
 }
-
+p {
+    font-size: 24px;
+}
+p {
+    font-size: 30px;
+}
 div {
     margin: 10px;
+    padding: 10px;
+    /* background-color: #c4caff; */
+}
+
+.cat-page-header {
+    background: #7badfc;
 }
 
 h1 {
     /* Pate Title */
     color: #372149;
-    background-color: #c4caff;
-    padding: 10px;
-    border: 1px solid #372149;
-    
-}
-
-p {
-    /* Page Content */
-    font-weight: bold;
-    color: #3c3c3c;
-    background-color: lightsalmon;
-    padding: 10px;
+    border-radius: 6px;
 }
 
 img {
@@ -28,3 +29,4 @@ img {
     /* max-width: 560px; */
     height: auto;
 }
+
