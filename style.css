@@ -13,7 +13,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: #372149;
+    color: #7e6bc5;
     font-family: 'Noto Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -24,8 +24,52 @@ div {
 }
 
 .cat-page-header {
-    background: #7badfc;
+    color: #ffffff;
+    background-color: #2b3441;
 }
+/* 
+4 3 2 1
+id element+class class element
+*/
+
+/* #CatHeaderTitle {
+    color: lightseagreen;
+}
+.cat-page-header h1.header-title {
+    color: lightcoral;
+}
+.cat-page-header h1 {
+    color: orange;
+}
+h1 {
+    color: white;
+} */
+
+/* .cat-page-header h1.header-title {
+    color: lightcoral;
+}*/
+
+/* 
+4  3             2     1
+id element+class class element */
+/* 2 4 */
+.cat-page-header #CatHeaderTitle {
+    color: red;
+}
+/* 4 */
+#CatHeaderTitle {
+    color: lightseagreen;
+}
+.cat-page-header h1.header-title {
+    color: lightblue;
+}
+.cat-page-header .header-title {
+    color: lightgoldenrodyellow;
+} 
+.cat-page-header h1 {
+    color: white;
+}
+
 
 
 img {
