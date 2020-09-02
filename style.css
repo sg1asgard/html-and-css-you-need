@@ -1,13 +1,22 @@
+/* Noto Sans, Roboto fonts */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Roboto&display=swap');
+
 body {
     margin: 0;
     font-size: 20px;
+    font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-p {
-    font-size: 24px;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #372149;
+    font-family: 'Noto Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-p {
-    font-size: 30px;
-}
+
 div {
     margin: 10px;
     padding: 10px;
@@ -18,11 +27,6 @@ div {
     background: #7badfc;
 }
 
-h1 {
-    /* Pate Title */
-    color: #372149;
-    border-radius: 6px;
-}
 
 img {
     width: 100%;
