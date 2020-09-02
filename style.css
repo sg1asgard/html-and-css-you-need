@@ -1,5 +1,5 @@
 /* Noto Sans, Roboto fonts */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Roboto&display=swap');
+@import url('fonts/google-fonts.css');
 
 body {
     margin: 0;
