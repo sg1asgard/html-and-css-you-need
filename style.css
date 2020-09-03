@@ -5,7 +5,6 @@ body {
     margin: 0;
     font-size: 20px;
     font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-image: url(images/gray-cat.jpg);
 }
 
 img {
@@ -57,42 +56,3 @@ div {
 .cat-page-header .header-title {
     color: #ffffff;
 }
-
-/* Colors */
-.colors div {
-    margin: 10px 0px;
-    padding: 24px;
-}
-.colors .hex {
-    background-color: #00BFFF;
-}
-.colors .rgb {
-    background-color: rgb(0, 191, 255);
-}
-.colors .rgba {
-    background-color: rgba(0, 191, 255, .6);
-}
-.colors .hsl {
-    background-color: hsl(195,100%,50%);
-}
-.colors .hsla {
-    background-color: hsla(195,100%,50%,.2);
-}
-
-/* HEX value / #rrggbb
-a hexadecimal value where rr (red), gg (green) and bb (blue) are hexadecimal values between 00 and ff 
-*/
-
-/* RGB value / rgb(red, green, blue)
-defines the intensity of the color between 0 and 255 
-*/
-
-
-/* HSLA value / hsla(hue, saturation, lightness, alpha)
-a hsla value specified using hue, saturation, lightness, and alpha.
-
-- Hue is a degree on the color wheel from 0 to 360.
-- Saturation is a percentage value, 0% means a shade of gray, and 100% is the full color.
-- Lightness is also a percentage, 0% is black, 100% is white
-- The alpha parameter is a number between 0.0 (fully transparent) and 1.0 (not transparent at all) 
-*/
