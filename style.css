@@ -48,3 +48,7 @@ div {
 .cat-page-header .header-title {
     color: #ffffff;
 }
+
+.types-of-images img {
+    max-width: 200px;
+}
