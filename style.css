@@ -33,7 +33,15 @@ div {
     margin: 0 auto;
 }
 
+.content .section .photo-credits {
+    color: #606060;
+    text-align: end;
+    font-weight: 100;
+}
 .content .section img {
+    float: right;
+    margin: 0 0 24px 24px;
+    max-width: 380px;
     border-radius: 8px;
 }
 .cat-page-header {
