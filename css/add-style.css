@@ -1,0 +1,84 @@
+/* 
+Display, Screen, Monitor, Mobile Screen = 
+PPI of 72ppi
+*/
+
+/* Unist of Measure we would mostly use */
+/* 
+[ Absolute Units ]
+px = pixels (1px = 1/96th of 1in) 
+
+[ Relative Units]
+- em = Relative to the font-size of the element (2em means 2 times the size of the current font)
+- rem = Relative to font-size of the root element
+- % = Relative to the parent element
+
+- vw = Relative to 1% of the width of the viewport*
+- vh = Relative to 1% of the height of the viewport*
+
+- vmin 	Relative to 1% of viewport's* smaller dimension 	
+- vmax Relative to 1% of viewport's* larger dimension
+*/
+
+/* element { property: value } */
+/* class name { property: value } */
+/* id name { property: value } */
+
+body {
+    padding: 32px;
+    font-size: 20px;
+}
+
+
+/* bad man! worsk with DIV , not ok with SPAN
+OK with block element not ok with inline elements */
+/* #blackCatInfo.extra-info {
+    font-size: 0.6rem;
+} */
+
+/* Camel Case */
+#blackCatInfo {
+    font-size: 1.6rem!important;
+}
+
+/*
+[ Safe to use ]
+#newClass - only use it for ID
+.newclass - the rest only for the CSS classes
+.new-class
+.new--class
+.new_class
+.new__class
+.newClass - ok but not recommended
+._new-class - ok but not recommended
+
+[ Never Use!!! ]
+.123 - never start with a number
+.123new-class
+.#new-class
+./new-class
+*new-class
+.,new-class - never use punctuation after . or #
+*/
+
+.new-123class {
+    color: orange;
+}
+
+div.extra-info {
+    color: #6a5f86;
+    font-size: 3rem;
+}
+
+.inner-paragraph {
+    color: #86705f;
+}
+
+img {
+    max-width: 30%;
+}
+
+p {
+    background-color: lightgreen; 
+    max-width: 560px;
+}
