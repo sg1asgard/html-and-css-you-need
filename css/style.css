@@ -1,5 +1,6 @@
 /* Noto Sans, Roboto fonts */
 @import url('fonts/google-fonts.css');
+@import url('utilities.css');
 
 body {
     margin: 0;
@@ -22,15 +23,11 @@ h6 {
     font-family: 'Noto Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-div {
-    margin: 10px;
-    padding: 10px;
-    /* background-color: #c4caff; */
-}
-
 .content {
     max-width: 860px;
     margin: 0 auto;
+    padding: 32px;
+    background-color: bisque;
 }
 
 .content .section .photo-credits {
@@ -39,20 +36,27 @@ div {
     font-weight: 100;
 }
 .content .section img {
-    float: right;
-    margin: 0 0 24px 24px;
     max-width: 380px;
-    border-radius: 8px;
 }
 .cat-page-header {
+    padding: 20px;
     color: #ffffff;
     background-color: #2b3441;
-    background-image: url(images/gray-cat.jpg);
+    background-image: url(../images/gray-cat.jpg);
     background-size: cover;
     background-position: center center;
-    height: 380px;
-    border-radius: 8px;
+    min-height: 260px;
 }
 .cat-page-header .header-title {
     color: #ffffff;
+}
+
+.cat-row::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+.cat-row .cat-collumn {
+    float: left;
+    width: 50%;
 }
