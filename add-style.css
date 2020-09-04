@@ -1,0 +1,36 @@
+/* element { property: value } */
+/* class name { property: value } */
+/* id name { property: value } */
+
+body {
+    padding: 32px;
+}
+
+
+/* bad man! worsk with DIV , not ok with SPAN
+OK with block element not ok with inline elements */
+/* #blackCatInfo.extra-info {
+    font-size: 0.6rem;
+} */
+
+#blackCatInfo {
+    font-size: 1.6rem!important;
+}
+
+div.extra-info {
+    color: #6a5f86;
+    font-size: 3rem;
+}
+
+.inner-paragraph {
+    color: #86705f;
+}
+
+img {
+    max-width: 380px;
+}
+
+p {
+    background-color: lightgreen; 
+    max-width: 560px;
+}
