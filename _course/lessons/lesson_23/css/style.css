@@ -28,15 +28,10 @@ h6 {
     margin: 0 auto;
     padding: 32px;
 }
-
-.content .section .photo-credits {
-    color: #606060;
-    text-align: end;
-    font-weight: 100;
-}
 .content .section img {
     max-width: 380px;
 }
+/* Cat Page Header */
 .cat-page-header {
     padding: 20px;
     color: #ffffff;

@@ -2,3 +2,9 @@
 .util_border-radius-8 {
     border-radius: 8px;
 }
+
+.photo-credits {
+    color: #606060;
+    font-weight: 100;
+    font-size: 18px;
+}
