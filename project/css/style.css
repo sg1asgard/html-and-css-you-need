@@ -8,6 +8,10 @@ body {
     font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 img {
     width: 100%;
     height: auto;
@@ -44,14 +48,4 @@ h6 {
 }
 .cat-page-header .header-title {
     color: #ffffff;
-}
-
-.cat-row::after {
-    display: block;
-    content: "";
-    clear: both;
-}
-.cat-row .cat-collumn {
-    float: left;
-    width: 50%;
 }

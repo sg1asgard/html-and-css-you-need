@@ -8,3 +8,18 @@
     font-weight: 100;
     font-size: 18px;
 }
+
+/* Rows and Collumns */
+.row {
+    margin: 0px -15px;
+}
+.row::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+.row .collumn {
+    float: left;
+    width: 50%;
+    padding: 15px;
+}
