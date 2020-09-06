@@ -1,4 +1,4 @@
-![Image of Yaktocat](_course/html-css-cover.jpg)
+![Image of Yaktocat](html-css-cover.jpg)
 
 01 - Introduction - Part 1
 
