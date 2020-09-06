@@ -1,44 +1,45 @@
 ![Image of Yaktocat](html-css-cover.jpg)
 
-01 - Introduction - Part 1
+1. Introduction - Part 1
 
-02 - Html document and basic blocks
+2. Html document and basic blocks
 
-03 - Adding CSS to our html document
+3. Adding CSS to our html document
 
-04 - The Box Model, Padding, Border, Margin
+4. The Box Model, Padding, Border, Margin
 
-05 - Adding Images
-06 - CSS Classes, Inline Style, Border Radius
+5. Adding Images
 
-07 - CSS Inheritance, Base Font Size
+6. CSS Classes, Inline Style, Border Radius
 
-08 - Adding Fonts to Web Page - part 1
+7. CSS Inheritance, Base Font Size
 
-09 - Adding Fonts to Web Page - part 2
+8. Adding Fonts to Web Page - part 1
 
-10 - CSS Specificity, Level of Importance
+9. Adding Fonts to Web Page - part 2
 
-11 - Background Image, Auto Center an Element
+10. CSS Specificity, Level of Importance
 
-12 - Types of Images
+11. Background Image, Auto Center an Element
 
-13 - Images and Text Alignment
+12. Types of Images
 
-14 - Colors on Web
+13. Images and Text Alignment
 
-15 - DOCTYPE and Meta
+14. Colors on Web
 
-16 - Test style elements
+15. DOCTYPE and Meta
 
-17 - Adding CSS advanced
+16. Test style elements
 
-18 - CSS Class construction, using !Important
+17. Adding CSS advanced
 
-19 - HTML and CSS naming conventions
+18. CSS Class construction, using !Important
 
-20 - CSS Units of Measurement
+19. HTML and CSS naming conventions
 
-21 - Float and Columns - part 1
+20. CSS Units of Measurement
 
-22 - Float and Columns - part 2
+21. Float and Columns - part 1
+
+22. Float and Columns - part 2
