@@ -38,6 +38,11 @@ h6 {
     margin-bottom: 32px;
 }
 
+/* Table of Contents for Cats Breeds */
+.toc-nav {
+    margin-bottom: 16px;
+}
+
 /* Cat Page Header */
 .cat-page-header {
     padding: 20px;
