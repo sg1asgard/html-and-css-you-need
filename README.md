@@ -1,12 +1,8 @@
 ![Image of Yaktocat](html-css-cover.jpg)
 
-
-
 # 2020 HTML & CSS Free Video Training Course
 
 In this course you will learn all the necessary HTML and CSS you need to know to start creating web app design and pages and get a new job as a developer.
-
-
 
 ### What will  you learn?
 
@@ -20,8 +16,6 @@ In this course you will learn all the necessary HTML and CSS you need to know to
 
 - Learn to use DuckDuckGo.com search engine in the development cycle
 
-
-
 ### Course Prequisites
 
 Download and install the required software as follows.
@@ -30,13 +24,9 @@ Download and install the required software as follows.
 
 - **Visual Studio** -[ https://code.visualstudio.com/](https://code.visualstudio.com/)
 
-
-
 ### Course Length
 
-More than **10h** in 1080p over YouTube.
-
-
+More than **11h** in 1080p over YouTube.
 
 ### Course Dowloadables
 
