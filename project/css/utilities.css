@@ -1,4 +1,8 @@
 /* Utiliti Files */
+.util_border-radius-6 {
+    border-radius: 6px;
+}
+
 .util_border-radius-8 {
     border-radius: 8px;
 }
