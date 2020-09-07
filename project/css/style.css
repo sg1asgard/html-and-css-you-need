@@ -28,12 +28,9 @@ h6 {
 }
 
 .content {
-    max-width: 860px;
+    max-width: 960px;
     margin: 0 auto;
     padding: 32px;
-}
-.content .section img {
-    max-width: 380px;
 }
 
 /* Cat Page Header */
@@ -48,4 +45,16 @@ h6 {
 }
 .cat-page-header .header-title {
     color: #ffffff;
+}
+
+/* Cat Row */
+.cat-row .image-collumn {
+    width: 36%;
+}
+.cat-row .content-collumn {
+    width: 64%;
+}
+
+.cat-row p {
+    margin-top: 0;
 }
