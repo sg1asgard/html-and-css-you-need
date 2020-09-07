@@ -34,6 +34,13 @@ h6 {
     padding: 32px;
 }
 
+/* Top Navigation */
+.top-navigation {
+    margin-bottom: 16px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid gray;
+}
+
 .page-header {
     margin-bottom: 32px;
 }
