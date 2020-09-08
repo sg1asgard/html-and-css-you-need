@@ -1,5 +1,51 @@
 ![Image of Yaktocat](html-css-cover.jpg)
 
+# 2020 HTML & CSS Free Video Training Course
+
+In this course you will learn all the necessary HTML and CSS you need to know to start creating web app design and pages and get a new job as a developer.
+
+### What will  you learn?
+
+- HTML5 and CSS
+
+- How to use Firefox Developer Tools
+
+- How to work with Visual Studio Code to create and edit your pages
+
+- Learn about the Visual Studio market place for Extensions
+
+- Learn to use DuckDuckGo.com search engine in the development cycle
+
+### Course Prequisites
+
+Download and install the required software as follows.
+
+- **Firefox Browser** - [Firefox - Protect your life online with privacy-first products — Mozilla](https://www.mozilla.org/en-US/firefox/)
+
+- **Visual Studio** -[ https://code.visualstudio.com/](https://code.visualstudio.com/)
+
+### Course Length
+
+More than **12h** in 1080p over YouTube.
+
+### Course Dowloadables
+
+Code baseline for the lessons, startign with lesson 23.
+
+[HTML_and_CSS_you_need_to_know - Google Drive](https://drive.google.com/drive/folders/15u8kIThFiGG1KrnoaAJHGl0U6Bugm4aa?usp=sharing)
+
+- Download the lesson's baseline code as .zip
+
+- Extract the content in a folder
+
+- Open the index.html or required file inside Firefox or your preffered browser
+
+- Open the project's folder inside Visual Studio Code
+
+<hr>
+
+## Table of Contents
+
 1. Introduction - Part 1
 
 2. Html document and basic blocks

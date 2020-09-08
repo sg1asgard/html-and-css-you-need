@@ -6,6 +6,11 @@ body {
     margin: 0;
     font-size: 20px;
     font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #3f3f3f;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 img {
@@ -19,17 +24,83 @@ h3,
 h4,
 h5,
 h6 {
-    color: #7e6bc5;
     font-family: 'Noto Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 0;
+}
+
+ul {
+    /* list-style-type: circle; */
+    /* list-style-type: square; */
+    /* list-style-type: disc; */    
+}
+
+ol {
+    /* list-style-type: lower-alpha; */
+    list-style-type: upper-roman;
+}
+
+.list-with-icons {
+    padding: 0;
+}
+.list-with-icons, 
+.list-with-icons ul {
+    list-style-type: none;
+}
+.list-with-icons li::before {
+    padding-right: 8px;
+    content: "🐈";
+}
+
+dl dt {
+    font-weight: bold;
+}
+dl dd {
+    font-style: italic;
+}
+
+/* Links with Pseudo classes */
+a {
+    color: #483d8b;
+    text-decoration: none;
+}
+a:hover {
+    color: #f08080;
+    text-decoration: underline;
 }
 
 .content {
-    max-width: 860px;
+    max-width: 960px;
     margin: 0 auto;
     padding: 32px;
 }
-.content .section img {
-    max-width: 380px;
+
+/* Top Navigation */
+.top-navigation {
+    margin-bottom: 32px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #808080;
+}
+
+/* Footer content */
+.footer {
+    text-align: center;
+    margin-top: 32px;
+    padding: 16px 0px;
+    border-top: 1px solid #808080;
+}
+
+.page-header {
+    margin-bottom: 32px;
+}
+
+/* Table of Contents for Cats Breeds */
+.toc-nav {
+    margin-bottom: 16px;
+}
+.toc-nav a:hover {
+    color: #ffffff;
+    background-color: #483d8b;
+    text-decoration: none;
 }
 
 /* Cat Page Header */
@@ -46,12 +117,14 @@ h6 {
     color: #ffffff;
 }
 
-.cat-row::after {
-    display: block;
-    content: "";
-    clear: both;
+/* Cat Row */
+.cat-row .image-collumn {
+    width: 36%;
 }
-.cat-row .cat-collumn {
-    float: left;
-    width: 50%;
+.cat-row .content-collumn {
+    width: 64%;
+}
+
+.cat-row p {
+    margin-top: 0;
 }
