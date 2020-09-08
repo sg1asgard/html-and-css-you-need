@@ -26,7 +26,7 @@ Download and install the required software as follows.
 
 ### Course Length
 
-More than **11h** in 1080p over YouTube.
+More than **12h** in 1080p over YouTube.
 
 ### Course Dowloadables
 
