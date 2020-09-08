@@ -6,6 +6,7 @@ body {
     margin: 0;
     font-size: 20px;
     font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #3f3f3f;
 }
 
 * {
@@ -23,9 +24,18 @@ h3,
 h4,
 h5,
 h6 {
-    color: #7e6bc5;
     font-family: 'Noto Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: 0;
+}
+
+/* Links with Pseudo classes */
+a {
+    color: darkslateblue;
+    text-decoration: none;
+}
+a:hover {
+    color: lightcoral;
+    text-decoration: underline;
 }
 
 .content {
@@ -56,6 +66,9 @@ h6 {
 /* Table of Contents for Cats Breeds */
 .toc-nav {
     margin-bottom: 16px;
+}
+.toc-nav a:hover {
+    background-color: lightblue;
 }
 
 /* Cat Page Header */
