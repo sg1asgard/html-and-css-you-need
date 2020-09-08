@@ -28,6 +28,36 @@ h6 {
     margin-top: 0;
 }
 
+ul {
+    /* list-style-type: circle; */
+    /* list-style-type: square; */
+    /* list-style-type: disc; */    
+}
+
+ol {
+    /* list-style-type: lower-alpha; */
+    list-style-type: upper-roman;
+}
+
+.list-with-icons {
+    padding: 0;
+}
+.list-with-icons, 
+.list-with-icons ul {
+    list-style-type: none;
+}
+.list-with-icons li::before {
+    padding-right: 8px;
+    content: "🐈";
+}
+
+dl dt {
+    font-weight: bold;
+}
+dl dd {
+    font-style: italic;
+}
+
 /* Links with Pseudo classes */
 a {
     color: #483d8b;
