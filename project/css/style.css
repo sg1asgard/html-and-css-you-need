@@ -141,11 +141,24 @@ header .photo-credits {
 /* Cat Breeds */
 table {
     width: 100%;
+    border-collapse: collapse;
+    /* border-spacing: 10px; */
+    table-layout: auto;
+    font-size: 18px;
+}
+table caption {
+    padding: 12px;
+    font-weight: 900;
+    color: coral;
+    caption-side: top;
 }
 table img {
     width: 100%;
     max-width: 120px;
     height: auto;
+}
+table thead tr {
+    vertical-align: top;
 }
 table, th, td {
     border: 1px solid gray;
@@ -161,5 +174,9 @@ table tfoot {
     background-color: #ffe9e0;
 }
 table tbody tr th {
-    background-color: lightblue;
+    font-weight: 500;
+    background-color: #e6e9ee;
+}
+table .cat-breed-table--fur {
+    background-color: #f3efff;
 }
