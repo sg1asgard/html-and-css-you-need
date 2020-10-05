@@ -137,3 +137,29 @@ header .photo-credits {
 .cat-row p {
     margin-top: 0;
 }
+
+/* Cat Breeds */
+table {
+    width: 100%;
+}
+table img {
+    width: 100%;
+    max-width: 120px;
+    height: auto;
+}
+table, th, td {
+    border: 1px solid gray;
+}
+table tr td,
+table tr th {
+    padding: 12px;
+}
+table thead {
+    background-color: lightskyblue;
+}
+table tfoot {
+    background-color: #ffe9e0;
+}
+table tbody tr th {
+    background-color: lightblue;
+}
