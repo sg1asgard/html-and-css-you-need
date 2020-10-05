@@ -2,7 +2,17 @@
 
 # 2020 HTML & CSS Free Video Training Course
 
+---
+
+### Course Length
+
+More than **15h** in 1080p over YouTube.
+
+
+
 In this course you will learn all the necessary HTML and CSS you need to know to start creating web app design and pages and get a new job as a developer.
+
+
 
 ### What will  you learn?
 
@@ -23,10 +33,6 @@ Download and install the required software as follows.
 - **Firefox Browser** - [Firefox - Protect your life online with privacy-first products — Mozilla](https://www.mozilla.org/en-US/firefox/)
 
 - **Visual Studio** -[ https://code.visualstudio.com/](https://code.visualstudio.com/)
-
-### Course Length
-
-More than **12h** in 1080p over YouTube.
 
 ### Course Dowloadables
 
