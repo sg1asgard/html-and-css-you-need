@@ -68,6 +68,15 @@ a:hover {
     padding: 32px;
 }
 
+/* Iframe */
+iframe {
+    border: 0;
+}
+.iframe-menu {
+    width: 100%;
+    height: 80px;
+}
+
 /* Top Navigation */
 .top-navigation {
     margin-bottom: 32px;
@@ -191,3 +200,16 @@ video {
     width: 100%;
     max-width: 560px;
 }
+
+/* Entities */
+.amp_demo::after {
+    display: inline-block;
+    content: "\0026";
+    color: lightcoral;
+}
+
+/* 
+&amp; - entity with name in html
+&#38; - html-code in html
+\0026 - css-code in css
+*/
