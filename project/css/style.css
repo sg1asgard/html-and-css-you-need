@@ -180,3 +180,14 @@ table tbody tr th {
 table .cat-breed-table--fur {
     background-color: #f3efff;
 }
+
+/* Media (Video, Audio) */
+figure {
+    display: block;
+    margin: 0 0 42px 0;
+    padding: 0;
+}
+video {
+    width: 100%;
+    max-width: 560px;
+}
