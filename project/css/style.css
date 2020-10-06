@@ -28,12 +28,6 @@ h6 {
     margin-top: 0;
 }
 
-ul {
-    /* list-style-type: circle; */
-    /* list-style-type: square; */
-    /* list-style-type: disc; */    
-}
-
 ol {
     /* list-style-type: lower-alpha; */
     list-style-type: upper-roman;
@@ -89,13 +83,12 @@ a:hover {
     border-top: 1px solid #808080;
 }
 
-.page-header {
-    margin-bottom: 32px;
-}
-
 /* Table of Contents for Cats Breeds */
 .toc-nav {
+    position: sticky;
+    top: 20px;
     margin-bottom: 16px;
+    background-color: #ffffff;
 }
 .toc-nav a:hover {
     color: #ffffff;
@@ -104,17 +97,33 @@ a:hover {
 }
 
 /* Cat Page Header */
-.cat-page-header {
+.page-header {
+    position: relative;
     padding: 20px;
     color: #ffffff;
     background-color: #2b3441;
     background-image: url(../images/gray-cat.jpg);
     background-size: cover;
     background-position: center center;
-    min-height: 260px;
+    min-height: 260px; 
 }
-.cat-page-header .header-title {
+.page-header .cat-page-header {
+    position: absolute;
+    right: 20px;
+    bottom: 0;
+    left: 20px;
+}
+.page-header .cat-page-header .header-title {
     color: #ffffff;
+    margin: 0;
+}
+.page-header .cat-page-header p {
+    margin-top: 0;
+}
+
+header .photo-credits {
+    margin-top: 18px;
+    margin-bottom: 32px;
 }
 
 /* Cat Row */
@@ -127,4 +136,58 @@ a:hover {
 
 .cat-row p {
     margin-top: 0;
+}
+
+/* Cat Breeds */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    /* border-spacing: 10px; */
+    table-layout: auto;
+    font-size: 18px;
+}
+table caption {
+    padding: 12px;
+    font-weight: 900;
+    color: coral;
+    caption-side: top;
+}
+table img {
+    width: 100%;
+    max-width: 120px;
+    height: auto;
+}
+table thead tr {
+    vertical-align: top;
+}
+table, th, td {
+    border: 1px solid gray;
+}
+table tr td,
+table tr th {
+    padding: 12px;
+}
+table thead {
+    background-color: lightskyblue;
+}
+table tfoot {
+    background-color: #ffe9e0;
+}
+table tbody tr th {
+    font-weight: 500;
+    background-color: #e6e9ee;
+}
+table .cat-breed-table--fur {
+    background-color: #f3efff;
+}
+
+/* Media (Video, Audio) */
+figure {
+    display: block;
+    margin: 0 0 42px 0;
+    padding: 0;
+}
+video {
+    width: 100%;
+    max-width: 560px;
 }
