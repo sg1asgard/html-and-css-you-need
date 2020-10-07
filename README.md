@@ -62,55 +62,55 @@ ZIP files are available for download either from GitHUB direcly  inside **course
 
 ## Table of Contents
 
-1. [Introduction - Part 1]([HTML and CSS - Introduction - Part 1 - YouTube](https://youtu.be/sUot6XDmPks))
+1. [Introduction - Part 1](https://youtu.be/sUot6XDmPks)
 
-2. [HTML document and basic blocks]([HTML Document and Basic Blocks - Part 2 - YouTube](https://youtu.be/9sWsy7WHOoI))
+2. [HTML document and basic blocks](https://youtu.be/9sWsy7WHOoI)
 
-3. [Adding CSS to our HTML document]([Adding CSS to our HTML Document - Part 3 - YouTube](https://youtu.be/vH4vJBA2PnA))
+3. [Adding CSS to our HTML document](https://youtu.be/vH4vJBA2PnA)
 
-4. [CSS Box Model, Padding, Border, Margin]([CSS Box Model, Padding, Border, Margin - Part 4 - YouTube](https://youtu.be/5Mnb3ChcUqY))
+4. [CSS Box Model, Padding, Border, Margin](https://youtu.be/5Mnb3ChcUqY)
 
-5. [Adding Images in HTML]([Adding Images in HTML - Part 5 - YouTube](https://youtu.be/ZyVpo0b8Wg4))
+5. [Adding Images in HTML](https://youtu.be/ZyVpo0b8Wg4)
 
 6. [CSS Classes, Inline Style, Border Radius - Part 6 - YouTube](https://youtu.be/Z2hNjKPgKSA)
 
-7. [CSS Inheritance, Base Font Size]([CSS Inheritance, Base Font Size - Part 7 - YouTube](https://youtu.be/cr2jJFOcHtc))
+7. [CSS Inheritance, Base Font Size](https://youtu.be/cr2jJFOcHtc)
 
-8. [Adding Fonts to Web Page - Part 1]([Adding Fonts to Web Page - Part 8 (p1) - YouTube](https://youtu.be/h5MPt8DmXGM))
+8. [Adding Fonts to Web Page - Part 1](https://youtu.be/h5MPt8DmXGM)
 
-9. [Adding Fonts to Web Page - Part 2]([Adding Fonts to Web Page - Part 9 ( p2) - YouTube](https://youtu.be/mpulTp9VGIc))
+9. [Adding Fonts to Web Page - Part 2](https://youtu.be/mpulTp9VGIc)
 
-10. [CSS Specificity, Level of Importance]([CSS Specificity, Level of Importance - Part 10 - YouTube](https://youtu.be/blF1hay20WY))
+10. [CSS Specificity, Level of Importance](https://youtu.be/blF1hay20WY)
 
-11. [Adding a Background Image in HTML and CSS, Auto Center an Element]([Adding a Background Image in HTML and CSS, Auto Center an Element - Part 11 - YouTube](https://youtu.be/NOmuU3sjC0Y))
+11. [Adding a Background Image in HTML and CSS, Auto Center an Element](https://youtu.be/NOmuU3sjC0Y)
 
 12. [Types of Images in HTML - Part 12 - YouTube](https://youtu.be/6W__ltuoGxg)
 
-13. [Images and Text Alignment]([Images and Text Alignment - Part 13 - YouTube](https://youtu.be/cFq9g_2CRaY))
+13. [Images and Text Alignment](https://youtu.be/cFq9g_2CRaY)
 
 14. [Web Colors and How To Use Colors in HTML and CSS - Part 14 - YouTube](https://youtu.be/xTKUA4TG5rI)
 
-15. [HTML DOCTYPE and Meta]([HTML DOCTYPE and META - Part 15 - YouTube](https://youtu.be/VhDd4yONwmA))
+15. [HTML DOCTYPE and Meta](https://youtu.be/VhDd4yONwmA)
 
-16. [HTML Text Style Elements]([HTML Text Style Elements - Part 16 - YouTube](https://youtu.be/cNOlno9jnTY))
+16. [HTML Text Style Elements](https://youtu.be/cNOlno9jnTY)
 
-17. [Adding CSS to HTML, advanced]([Adding CSS to HTML, advanced - Part 17 - YouTube](https://youtu.be/N3QZXw6H7_4))
+17. [Adding CSS to HTML, advanced](https://youtu.be/N3QZXw6H7_4)
 
-18. [CSS Class Construction and using !Important]([CSS Class Construction and Using !Important - Part 18 - YouTube](https://youtu.be/y8d-q3APrIk))
+18. [CSS Class Construction and using !Important](https://youtu.be/y8d-q3APrIk)
 
-19. [HTML and CSS Naming Conventions]([HTML and CSS Naming Conventions - Part 19 - YouTube](https://youtu.be/11qQhnognpc))
+19. [HTML and CSS Naming Conventions](https://youtu.be/11qQhnognpc)
 
-20. [CSS Units of Measurement (px, pt, em, rem, %, vh, vw)]([CSS Units of Measurement (px, pt, em, rem, %, vh, vw) - Part 20 - YouTube](https://youtu.be/V6REkZtK13s))
+20. [CSS Units of Measurement (px, pt, em, rem, %, vh, vw)](https://youtu.be/V6REkZtK13s)
 
-21. [CSS Float and Columns - Part 1]([CSS Float and Columns - Part 21 (p1) - YouTube](https://youtu.be/k015QuDjhd4))
+21. [CSS Float and Columns - Part 1](https://youtu.be/k015QuDjhd4)
 
-22. [CSS Float and Columns - Part 2]([CSS Float and Columns - Part 22 (p2) - YouTube](https://youtu.be/CJ61-suieU4))
+22. [CSS Float and Columns - Part 2](https://youtu.be/CJ61-suieU4)
 
 23. [CSS Box Sizing and Negative Margins - Part 23 - YouTube](https://youtu.be/sij8tvntu7A)
 
-24. [HTML Navigation, Absolute URLs and Images as Links - Part 1]([HTML Navigation, Absolute URLs and Images as Links - Part 24 (p1) - YouTube](https://youtu.be/5r7Wbe0gNl4))
+24. [HTML Navigation, Absolute URLs and Images as Links - Part 1](https://youtu.be/5r7Wbe0gNl4)
 
-25. [HTML Navigation, Absolute URLs and Images as Links - Part 2]([HTML Navigation, Relative URLs and Page Navigation - Part 25 (p2) - YouTube](https://youtu.be/ckOeCsgZsBA))
+25. [HTML Navigation, Relative URLs and Page Navigation - Part 2](https://youtu.be/ckOeCsgZsBA)
 
 26. [HTML Navigation, Browser History - Part 3](https://youtu.be/JfhdlknIpXY)
 
