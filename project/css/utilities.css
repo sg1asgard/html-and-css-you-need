@@ -9,8 +9,7 @@
 
 .photo-credits {
     color: #606060;
-    font-weight: 100;
-    font-size: 18px;
+    font-weight: 300;
 }
 
 /* Rows and Collumns */
@@ -25,4 +24,13 @@
 .row .collumn {
     float: left;
     padding: 15px;
+}
+
+/* Go to top */
+.goto_top {
+    display: inline-block;
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    top: 32px;
 }

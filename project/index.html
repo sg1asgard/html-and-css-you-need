@@ -7,13 +7,17 @@
     <title>A Page with Cats</title>
 </head>
 
-<body>
-    <base href="_parent">
+<body id="mainHeader">
     <div class="content">
         <header>
-            <iframe 
-                src="main-menu.html" 
-                class="iframe-menu"></iframe>
+            <nav class="top-navigation" role="navigation">
+                <div class="logo">😻 WeLoveCats</div>
+                <div class="the_nav">
+                    <a href="index.html">Home Page</a> | 
+                    <a href="cat-breeds.html">Cat Breeds</a> | 
+                    <a href="sound-and-video.html">Sound &amp; Video</a> | 
+                    <a href="https://en.wikipedia.org/wiki/Cat" target="_blank">WikiPedia</a>
+                </div>
             </nav>
 
             <div class="page-header util_border-radius-6">
@@ -32,9 +36,7 @@
         </header>
 
         <main role="main">
-
-            <nav id="tocBreeds" class="toc-nav">
-                <a href="#newLink">New Link here</a> |
+            <nav class="toc-nav">
                 <a href="#aegeanCat">Aegean Cat</a> |
                 <a href="#bombayCat">Bombay Cat (The Black Cat)</a> |
                 <a href="#chatreuxCat">Chatreux Cat</a> |
@@ -137,17 +139,15 @@
                         <strong>Mackerel Tabby Cat</strong>
                         <p> "Tabby" is not a breed of cat but a coat type seen in almost all genetic lines of domestic cats, regardless of status.[1] The tabby pattern is found in many official cat breeds and is a hallmark of the landrace extremely common among the general population of cats around the world.</p>
                     </div>
-                </div>
-
-                <hr />
-                
-                <div>
-                    <a href="#tocBreeds">Go back to Top ^</a>
-                </div>
+                </div>                
             </section>
         </main>
 
         <footer class="footer">
+            <span class="goto_top">
+                <a href="#mainHeader">Go back to Top ^</a>
+            </span>
+
             <strong>Copyright &copy; WeLoveCats</strong> <br>
             <a href="mailto:hello@aboutgeorgecats.com">📧 hello@aboutgeorgecats.com</a> - 
             <a href="tel:+01000000000">☎️ US +01 0000 00000</a>
