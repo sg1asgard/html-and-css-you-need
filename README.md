@@ -12,11 +12,9 @@ https://twitter.com/cdwithgeorge
 
 ### Course Length
 
-More than **16h** in 1080p over YouTube.
+More than **18h** in 1080p over YouTube.
 
 In this course you will learn all the necessary HTML and CSS you need to know to start creating web app design and pages and get a new job as a web designer and developer.
-
-
 
 ### What will  you learn?
 
@@ -30,8 +28,6 @@ In this course you will learn all the necessary HTML and CSS you need to know to
 
 - Learn to use DuckDuckGo.com search engine in the development cycle
 
-
-
 ### Course Prequisites
 
 Download and install the required software as follows.
@@ -39,8 +35,6 @@ Download and install the required software as follows.
 - **Firefox Browser** - [Firefox - Protect your life online with privacy-first products — Mozilla](https://www.mozilla.org/en-US/firefox/)
 
 - **Visual Studio** -[ https://code.visualstudio.com/](https://code.visualstudio.com/)
-
-
 
 ### Course Dowloadables
 
@@ -135,3 +129,13 @@ ZIP files are available for download either from GitHUB direcly  inside **course
 36. [HTML Entities](https://youtu.be/CC3PGShQ8f0)
 
 37. [HTML Iframe](https://youtu.be/kPE4O7_B4YU)
+
+38. [Let's tidy up our website](https://youtu.be/c_XX9yHCv0Q)
+
+39. [HTML Form Input and Label - Part 1](https://youtu.be/w5TojLlm3zg)
+
+40. [HTML Form Textarea - Part 2](https://youtu.be/k8gzNPAVB2E)
+
+41. [HTML Form Select, Option, Button - Part 3](https://youtu.be/VhaZtKiN-hc)
+    
+    
