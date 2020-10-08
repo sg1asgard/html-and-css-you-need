@@ -230,10 +230,19 @@ video {
 .form__contact-us * {
     font-size: 18px;
 }
+.form__contact-us fieldset {
+    padding: 16px;
+    margin-bottom: 18px;
+}
+.form__contact-us fieldset legend {
+    color: var(--color-primary);
+    font-weight: 500;
+}
 .form__contact-us div {
     margin-bottom: 12px;
 }
-.form__contact-us input {
+.form__contact-us input,
+.form__contact-us button {
     padding: 6px 8px;
     border-radius: 3px;
     border: 1px solid var(--color-gray-300);
@@ -247,14 +256,16 @@ video {
 .form__contact-us .form__input input {
     min-width: 300px;
 }
-.form__contact-us .form__button input { 
+.form__contact-us .form__button input,
+.form__contact-us .form__button button { 
     padding: 8px 16px;
     color: #ffffff;
     background-color: var(--color-secondary);
     border: 0;
     cursor: pointer;
 }
-.form__contact-us .form__button input:hover {
+.form__contact-us .form__button input:hover,
+.form__contact-us .form__button button:hover {
     background-color: var(--color-secondary-300);
 }
 .form__contact-us .form__textarea textarea {
