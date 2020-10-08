@@ -1,11 +1,12 @@
 /* Noto Sans, Roboto fonts */
 @import url('fonts/google-fonts.css');
+@import url('variables.css');
 @import url('utilities.css');
 
 body {
     margin: 0;
-    font-size: 20px;
-    font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-family: var(--font-roboto);
     color: #3f3f3f;
 }
 
@@ -26,6 +27,11 @@ h5,
 h6 {
     font-family: 'Noto Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: 0;
+}
+
+p {
+    line-height: 1.4;
+
 }
 
 ol {
@@ -54,7 +60,7 @@ dl dd {
 
 /* Links with Pseudo classes */
 a {
-    color: #483d8b;
+    color: var(--color-secondary);
     text-decoration: none;
 }
 a:hover {
@@ -63,6 +69,7 @@ a:hover {
 }
 
 .content {
+    position: relative;
     max-width: 960px;
     margin: 0 auto;
     padding: 32px;
@@ -81,29 +88,40 @@ iframe {
 .top-navigation {
     margin-bottom: 32px;
     padding-bottom: 16px;
-    border-bottom: 1px solid #808080;
+    border-bottom: 1px solid var(--color-gray-300);
+}
+.top-navigation .logo {
+    display: inline-block;
+    color: #ef8426;
+    font-weight: 600;
+}
+.top-navigation .the_nav {
+    float: right;
+    text-align: right;
 }
 
 /* Footer content */
 .footer {
-    text-align: center;
+    position: relative;
+    text-align: left;
     margin-top: 32px;
-    padding: 16px 0px;
-    border-top: 1px solid #808080;
+    padding: 32px 0px;
+    border-top: 1px solid var(--color-gray-300);
+}
+.footer strong {
+    font-weight: 500;
 }
 
 /* Table of Contents for Cats Breeds */
 .toc-nav {
     position: sticky;
-    top: 20px;
+    top: 0px;
+    padding: 20px 0px 16px 0px;
     margin-bottom: 16px;
     background-color: #ffffff;
+    border-bottom: 1px solid var(--color-gray-100);
 }
-.toc-nav a:hover {
-    color: #ffffff;
-    background-color: #483d8b;
-    text-decoration: none;
-}
+
 
 /* Cat Page Header */
 .page-header {
@@ -114,7 +132,7 @@ iframe {
     background-image: url(../images/gray-cat.jpg);
     background-size: cover;
     background-position: center center;
-    min-height: 260px; 
+    min-height: 360px; 
 }
 .page-header .cat-page-header {
     position: absolute;
@@ -132,7 +150,7 @@ iframe {
 
 header .photo-credits {
     margin-top: 18px;
-    margin-bottom: 32px;
+    margin-bottom: 12px;
 }
 
 /* Cat Row */
@@ -144,7 +162,7 @@ header .photo-credits {
 }
 
 .cat-row p {
-    margin-top: 0;
+    margin-top: 12px;
 }
 
 /* Cat Breeds */
@@ -170,14 +188,14 @@ table thead tr {
     vertical-align: top;
 }
 table, th, td {
-    border: 1px solid gray;
+    border: 1px solid var(--color-gray-300);
 }
 table tr td,
 table tr th {
     padding: 12px;
 }
 table thead {
-    background-color: lightskyblue;
+    background-color: var(--color-secondary-100);
 }
 table tfoot {
     background-color: #ffe9e0;
@@ -205,11 +223,56 @@ video {
 .amp_demo::after {
     display: inline-block;
     content: "\0026";
-    color: lightcoral;
+    color: var(--color-primary);
 }
 
-/* 
-&amp; - entity with name in html
-&#38; - html-code in html
-\0026 - css-code in css
-*/
+/* Contact Form */
+.form__contact-us * {
+    font-size: 18px;
+}
+.form__contact-us fieldset {
+    padding: 16px;
+    margin-bottom: 18px;
+}
+.form__contact-us fieldset legend {
+    color: var(--color-primary);
+    font-weight: 500;
+}
+.form__contact-us div {
+    margin-bottom: 12px;
+}
+.form__contact-us input,
+.form__contact-us button {
+    padding: 6px 8px;
+    border-radius: 3px;
+    border: 1px solid var(--color-gray-300);
+}
+.form__contact-us label {
+    display: inline-block;
+    min-width: 100px;
+    vertical-align: top;
+    line-height: 35px;
+}
+.form__contact-us .form__input input {
+    min-width: 300px;
+}
+.form__contact-us .form__button input,
+.form__contact-us .form__button button { 
+    padding: 8px 16px;
+    color: #ffffff;
+    background-color: var(--color-secondary);
+    border: 0;
+    cursor: pointer;
+}
+.form__contact-us .form__button input:hover,
+.form__contact-us .form__button button:hover {
+    background-color: var(--color-secondary-300);
+}
+.form__contact-us .form__textarea textarea {
+    padding: 12px;
+    min-width: 300px;
+    min-height: 160px;
+    border-radius: 3px;
+    border: 1px solid var(--color-gray-300);
+    font-family: var(--font-roboto);
+}
