@@ -132,7 +132,7 @@ iframe {
     background-image: url(../images/gray-cat.jpg);
     background-size: cover;
     background-position: center center;
-    min-height: 260px; 
+    min-height: 360px; 
 }
 .page-header .cat-page-header {
     position: absolute;
@@ -226,8 +226,33 @@ video {
     color: var(--color-primary);
 }
 
-/* 
-&amp; - entity with name in html
-&#38; - html-code in html
-\0026 - css-code in css
-*/
+/* Contact Form */
+.form__contact-us * {
+    font-size: 18px;
+}
+.form__contact-us div {
+    margin-bottom: 12px;
+}
+.form__contact-us input {
+    padding: 6px 8px;
+    border-radius: 3px;
+    border: 1px solid var(--color-gray-300);
+}
+.form__contact-us label {
+    display: inline-block;
+    min-width: 100px;
+}
+.form__contact-us .form__input input {
+    min-width: 300px;
+}
+.form__contact-us .form__button input { 
+    padding: 8px 16px;
+    color: #ffffff;
+    background-color: var(--color-secondary);
+    border: 0;
+    cursor: pointer;
+}
+
+.form__contact-us .form__button input:hover {
+    background-color: var(--color-secondary-300);
+}
